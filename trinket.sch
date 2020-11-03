@@ -276,7 +276,7 @@ Wire Wire Line
 	3250 4050 3450 4050
 Wire Wire Line
 	3250 3950 3450 3950
-Text GLabel 3250 3850 0    50   Input ~ 0
+Text GLabel 3250 3750 0    50   Input ~ 0
 PGM
 Text GLabel 4900 3450 2    50   Input ~ 0
 UPDI
@@ -287,8 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3450 4900 3450
 Wire Wire Line
-	3250 3850 3450 3850
-NoConn ~ 3450 3750
+	3250 3750 3450 3750
 Wire Wire Line
 	1550 3000 2400 3000
 Connection ~ 2400 4850
@@ -298,10 +297,11 @@ Wire Wire Line
 	4050 3450 2400 3450
 Wire Wire Line
 	2400 3000 2400 3450
-Wire Bus Line
-	5400 3750 5400 4350
 Connection ~ 2400 3000
 Wire Wire Line
 	2400 3000 6350 3000
 Connection ~ 2400 3450
+NoConn ~ 3450 3850
+Wire Bus Line
+	5400 3750 5400 4350
 $EndSCHEMATC
